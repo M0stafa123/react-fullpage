@@ -11,6 +11,10 @@
     "link": "npm link -w package && npm link @shinyongjun/react-fullpage -w test",
     "publish": "npm publish --access public -w package"
   },
+  "dependencies":{
+        "@shinyongjun/react-fullpage": "^1.9.4",
+
+  }
   "workspaces": [
     "package",
     "test"
